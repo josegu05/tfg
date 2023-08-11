@@ -1,29 +1,26 @@
-Circuit: * C:\users\jose\Documents\tfg\ltspice2\class-c-amp.asc
+Circuit: * C:\users\jose\My Documents\tfg\ltspice2\class-c-amp.asc
 
-Warning: Multiple definitions of model "2scr375p" Type: BJT
-Warning: Multiple definitions of model "bc857b" Type: BJT
-Warning: Multiple definitions of model "bc847c" Type: BJT
-Warning: Multiple definitions of model "bc847b" Type: BJT
-Limiting rise time of source v2 to 5e-05
-Limiting fall time of source v2 to 5e-05
-WARNING: Less than two connections to node n002.  This node is used by q2.
+Limiting rise time of source i1 to 1e-005
+Limiting fall time of source i1 to 1e-005
+Limiting rise time of source v2 to 1e-005
+Limiting fall time of source v2 to 1e-005
+WARNING: Less than two connections to node N002.  This node is used by Q2.
 Direct Newton iteration for .op point succeeded.
 
-Date: Tue Aug  1 14:13:10 2023
-Total elapsed time: 0.079 seconds.
+Date: Wed Aug 02 14:43:29 2023
+Total elapsed time: 0.487 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 2737
-traniter = 2716
-tranpoints = 1359
-accept = 1274
-rejected = 85
-matrix size = 9
+totiter = 74583
+traniter = 74562
+tranpoints = 37282
+accept = 26148
+rejected = 11134
+matrix size = 10
 fillins = 0
 solver = Normal
-Avg thread counts: 1.5/1.9/1.9/1.5
-Matrix Compiler1: 412 bytes object code size  0.2/0.2/[0.1]
-Matrix Compiler2: off  [0.2]/0.2/0.2
+Matrix Compiler1: 444 bytes object code size  0.2/0.2/[0.2]
+Matrix Compiler2: off  [0.1]/0.2/0.2
 
