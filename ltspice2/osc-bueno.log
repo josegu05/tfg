@@ -1,0 +1,21 @@
+Circuit: * C:\users\jose\My Documents\tfg\ltspice2\osc-bueno.asc
+
+Direct Newton iteration for .op point succeeded.
+
+Date: Tue Aug 22 12:23:21 2023
+Total elapsed time: 0.819 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 131622
+traniter = 131612
+tranpoints = 47001
+accept = 31465
+rejected = 15536
+matrix size = 8
+fillins = 2
+solver = Normal
+Matrix Compiler1: 638 bytes object code size  0.3/0.2/[0.2]
+Matrix Compiler2: off  [0.2]/0.3/0.3
+

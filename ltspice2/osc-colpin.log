@@ -1,21 +1,22 @@
 Circuit: * C:\users\jose\My Documents\tfg\ltspice2\osc-colpin.asc
 
-.OP point found by inspection.
+.ic: Inductor "l1" not found -- ignoring
+Direct Newton iteration for .op point succeeded.
 
-Date: Fri Aug 11 19:23:24 2023
-Total elapsed time: 14.979 seconds.
+Date: Tue Aug 22 12:29:21 2023
+Total elapsed time: 0.267 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 866747
-traniter = 866747
-tranpoints = 308007
-accept = 215041
-rejected = 92966
+totiter = 2112
+traniter = 2104
+tranpoints = 1053
+accept = 1051
+rejected = 2
 matrix size = 12
 fillins = 4
 solver = Normal
-Matrix Compiler1: 846 bytes object code size  2.8/2.3/[1.7]
-Matrix Compiler2: 988 bytes object code size  2.0/2.9/[1.9]
+Matrix Compiler1: 846 bytes object code size  0.9/0.7/[0.6]
+Matrix Compiler2: off  [0.6]/0.7/0.7
 
