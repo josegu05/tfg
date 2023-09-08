@@ -1,21 +1,23 @@
-Circuit: * C:\users\jose\My Documents\tfg\ltspice2\colpits-small signal.asc
+Circuit: * C:\users\jose\Documents\tfg\ltspice2\colpits-small signal.asc
 
 .OP point found by inspection.
+Heightened Def Con from 0.00660143 to 0.00660143
 
-Date: Fri Aug 11 18:38:51 2023
-Total elapsed time: 7.069 seconds.
+Date: Fri Sep  8 10:26:26 2023
+Total elapsed time: 7.187 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 1852084
-traniter = 1852084
-tranpoints = 926043
-accept = 648193
-rejected = 277850
+totiter = 4070738
+traniter = 4070738
+tranpoints = 2035375
+accept = 1334293
+rejected = 701083
 matrix size = 2
 fillins = 0
 solver = Normal
-Matrix Compiler1: 54 bytes object code size  0.4/0.3/[0.3]
-Matrix Compiler2: 116 bytes object code size  0.3/0.3/[0.3]
+Avg thread counts: 1.0/1.0/1.0/1.0
+Matrix Compiler1:       3 opcodes  0.1/[0.1]/0.1
+Matrix Compiler2: off  [0.1]/0.1/0.1
 

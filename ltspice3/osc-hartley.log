@@ -1,0 +1,26 @@
+Circuit: * C:\users\jose\Documents\tfg\ltspice3\osc-hartley.asc
+
+Warning: Multiple definitions of model "2scr375p" Type: BJT
+Warning: Multiple definitions of model "bc857b" Type: BJT
+Warning: Multiple definitions of model "bc847c" Type: BJT
+Warning: Multiple definitions of model "bc847b" Type: BJT
+.OP point found by inspection.
+
+Date: Fri Sep  8 14:50:27 2023
+Total elapsed time: 12.791 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 4942411
+traniter = 4942411
+tranpoints = 1691816
+accept = 1164478
+rejected = 527338
+matrix size = 10
+fillins = 5
+solver = Normal
+Avg thread counts: 1.0/1.0/1.0/1.0
+Matrix Compiler1: 890 bytes object code size  0.3/0.3/[0.2]
+Matrix Compiler2: 898 bytes object code size  0.2/0.3/[0.2]
+
