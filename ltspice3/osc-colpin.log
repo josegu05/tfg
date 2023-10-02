@@ -4,23 +4,25 @@ Warning: Multiple definitions of model "2scr375p" Type: BJT
 Warning: Multiple definitions of model "bc857b" Type: BJT
 Warning: Multiple definitions of model "bc847c" Type: BJT
 Warning: Multiple definitions of model "bc847b" Type: BJT
+Limiting rise time of source v2 to 5e-05
+Limiting fall time of source v2 to 5e-05
 .OP point found by inspection.
 
-Date: Fri Sep  8 17:20:44 2023
-Total elapsed time: 0.091 seconds.
+Date: Wed Sep 20 20:29:46 2023
+Total elapsed time: 10.438 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 2272
-traniter = 2272
-tranpoints = 1131
-accept = 1106
-rejected = 25
-matrix size = 9
+totiter = 3364261
+traniter = 3364261
+tranpoints = 1031271
+accept = 710657
+rejected = 320614
+matrix size = 12
 fillins = 2
 solver = Normal
-Avg thread counts: 2.2/3.4/3.4/2.2
-Matrix Compiler1: 706 bytes object code size  0.3/0.3/[0.2]
-Matrix Compiler2: 783 bytes object code size  0.2/0.2/[0.2]
+Avg thread counts: 1.0/1.0/1.0/1.0
+Matrix Compiler1: 882 bytes object code size  0.3/0.2/[0.2]
+Matrix Compiler2: 1022 bytes object code size  0.2/0.2/[0.2]
 

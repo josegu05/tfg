@@ -1,23 +1,31 @@
-Circuit: * C:\users\jose\My Documents\tfg\ltspice2\fsk-modulator.asc
+Circuit: * C:\users\jose\Documents\tfg\ltspice2\fsk-modulator.asc
 
-Limiting rise time of source v3 to 3.3e-007
-Limiting fall time of source v3 to 3.3e-007
+Limiting rise time of source v3 to 3.3e-07
+Limiting fall time of source v3 to 3.3e-07
+WARNING: Node NC_01 is floating.
+WARNING: Node NC_03 is floating.
+WARNING: Node NC_04 is floating.
+
+WARNING: Less than two connections to node nc_02.  This node is used by j2.
+WARNING: Less than two connections to node nc_03.  This node is used by j2.
+WARNING: Less than two connections to node nc_04.  This node is used by j2.
 Direct Newton iteration for .op point succeeded.
 
-Date: Thu Aug 10 15:02:27 2023
-Total elapsed time: 11.922 seconds.
+Date: Wed Sep 20 22:14:03 2023
+Total elapsed time: 3.615 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 6529203
-traniter = 6529197
-tranpoints = 2789563
-accept = 1752891
-rejected = 1036672
-matrix size = 10
+totiter = 1006774
+traniter = 1006764
+tranpoints = 392729
+accept = 246785
+rejected = 145944
+matrix size = 15
 fillins = 0
 solver = Normal
-Matrix Compiler1: 452 bytes object code size  0.2/0.1/[0.1]
-Matrix Compiler2: 726 bytes object code size  0.2/0.2/[0.1]
+Avg thread counts: 1.0/1.0/1.0/1.0
+Matrix Compiler1: 728 bytes object code size  0.2/0.2/[0.2]
+Matrix Compiler2: 1.03 KB object code size  0.2/0.2/[0.2]
 
