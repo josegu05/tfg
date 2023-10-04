@@ -6,21 +6,21 @@ Warning: Multiple definitions of model "bc847c" Type: BJT
 Warning: Multiple definitions of model "bc847b" Type: BJT
 .OP point found by inspection.
 
-Date: Mon Oct  2 21:24:41 2023
-Total elapsed time: 7.288 seconds.
+Date: Wed Oct  4 20:16:56 2023
+Total elapsed time: 9.463 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 1511088
-traniter = 1511088
-tranpoints = 755545
-accept = 539112
-rejected = 216433
-matrix size = 14
+totiter = 1511388
+traniter = 1511388
+tranpoints = 755600
+accept = 521582
+rejected = 234018
+matrix size = 19
 fillins = 0
 solver = Normal
 Avg thread counts: 1.0/1.0/1.0/1.0
-Matrix Compiler1: 608 bytes object code size  0.2/0.2/[0.2]
-Matrix Compiler2: 998 bytes object code size  0.2/0.3/[0.1]
+Matrix Compiler1: 974 bytes object code size  0.3/0.2/[0.2]
+Matrix Compiler2: 1.43 KB object code size  0.2/0.3/[0.2]
 
