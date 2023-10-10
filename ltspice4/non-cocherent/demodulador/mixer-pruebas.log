@@ -1,0 +1,31 @@
+Circuit: * C:\users\jose\Documents\tfg\ltspice4\non-cocherent\demodulador\mixer-pruebas.asc
+
+Warning: Multiple definitions of model "2scr375p" Type: BJT
+Warning: Multiple definitions of model "bc857b" Type: BJT
+Warning: Multiple definitions of model "bc847c" Type: BJT
+Warning: Multiple definitions of model "bc847b" Type: BJT
+WARNING: Node NC_01 is floating.
+WARNING: Node NC_02 is floating.
+
+WARNING: Less than two connections to node nc_01.  This node is used by c3.
+WARNING: Less than two connections to node nc_02.  This node is used by c4.
+.OP point found by inspection.
+Heightened Def Con from 0.00353355 to 0.00353355
+
+Date: Mon Oct  9 22:25:21 2023
+Total elapsed time: 4.937 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 914032
+traniter = 914032
+tranpoints = 372570
+accept = 239299
+rejected = 133272
+matrix size = 22
+fillins = 0
+solver = Normal
+Avg thread counts: 1.0/1.0/1.0/1.0
+Matrix Compiler1:      61 opcodes  0.4/0.4/[0.3]
+Matrix Compiler2: off
