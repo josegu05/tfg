@@ -1,0 +1,26 @@
+Circuit: * C:\users\jose\Documents\tfg\ltspice4\slope-detector\slope-detector.asc
+
+Warning: Multiple definitions of model "2scr375p" Type: BJT
+Warning: Multiple definitions of model "bc857b" Type: BJT
+Warning: Multiple definitions of model "bc847c" Type: BJT
+Warning: Multiple definitions of model "bc847b" Type: BJT
+WARNING: Less than two connections to node nc_01.  This node is used by r7.
+Direct Newton iteration for .op point succeeded.
+
+Date: Thu Oct 12 14:47:14 2023
+Total elapsed time: 0.469 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 95651
+traniter = 95619
+tranpoints = 43620
+accept = 29873
+rejected = 13747
+matrix size = 13
+fillins = 2
+solver = Normal
+Avg thread counts: 1.0/1.1/1.1/1.0
+Matrix Compiler1:      47 opcodes  0.4/0.3/[0.2]
+Matrix Compiler2: off
