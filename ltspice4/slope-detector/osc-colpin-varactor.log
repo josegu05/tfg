@@ -1,0 +1,28 @@
+Circuit: * C:\users\jose\Documents\tfg\ltspice4\slope-detector\osc-colpin-varactor.asc
+
+Warning: Multiple definitions of model "2scr375p" Type: BJT
+Warning: Multiple definitions of model "bc857b" Type: BJT
+Warning: Multiple definitions of model "bc847c" Type: BJT
+Warning: Multiple definitions of model "bc847b" Type: BJT
+Limiting rise time of source v2 to 5e-06
+Limiting fall time of source v2 to 5e-06
+WARNING: Less than two connections to node vcc+.  This node is used by q2.
+.OP point found by inspection.
+
+Date: Mon Oct 30 19:47:23 2023
+Total elapsed time: 5.861 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 1672289
+traniter = 1672289
+tranpoints = 495630
+accept = 342297
+rejected = 153333
+matrix size = 17
+fillins = 2
+solver = Normal
+Avg thread counts: 1.0/1.0/1.0/1.0
+Matrix Compiler1:      71 opcodes  0.4/0.3/[0.3]
+Matrix Compiler2: off

@@ -1,0 +1,53 @@
+* C:\users\jose\Documents\tfg\ltspice4\slope-detector\Draft1.asc
+C1 VCC+ N003 10n
+L1 VCC+ N003 1µ
+V1 N012 0 SFFM(0 10m 1.5meg 1 10k)
+R1 NC_01 N012 50
+R2 VCC+ N010 50k
+R3 N010 0 60k
+C2 N010 VIN 1µ
+Q1 N003 N010 N011 0 2N2222
+C3 VIN 0 1n
+L2 VIN 0 10µ
+V2 VCC+ 0 5 Rser=10
+R4 N011 0 10
+C4 N011 0 1µ
+C5 0 VCC+ 470µ
+C6 N009 N003 1µ
+Q2 N002 N009 0 0 2N2222
+C7 VCC+ N002 1µ
+L3 VCC+ N002 470µ
+Q3 VCC+ N002 VOUT 0 2N2222
+R5 VOUT 0 100k
+R6 N005 N001 80k
+V3 N001 0 5
+R7 N005 0 50k
+C8 VIN 0 30p
+C9 0 N004 30p
+L4 VIN N004 100µ
+R8 N008 0 15
+C10 N008 0 1µ
+R9 N001 VIN 400
+C11 N005 N004 100p
+Q4 VIN N005 N008 0 2N2222
+V4 N007 0 PULSE(0 1.5 0 0 0 .5m 1m)
+D1 N006 VIN D
+D2 N006 N004 D
+C12 N006 0 1µ
+R10 N007 N006 10
+.model D D
+.lib C:\users\jose\AppData\Local\LTspice\lib\cmp\standard.dio
+.model NPN NPN
+.model PNP PNP
+.lib C:\users\jose\AppData\Local\LTspice\lib\cmp\standard.bjt
+;tran 10m
+* Amplifier
+* BP filter
+* MIXER
+* OUTPUT STAGE
+* DEMOD
+.op
+.tran 10m startup
+;ic I(L2)=1f
+.backanno
+.end
